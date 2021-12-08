@@ -18,3 +18,5 @@ else:
 if set(lis1) == set(lis2):
     
     print('both list have same elements')
+else
+    print('both list have different value')
