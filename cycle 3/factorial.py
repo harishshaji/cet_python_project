@@ -7,4 +7,4 @@ def fact(num):
     
 num = int(input("enter a number"))
 k=fact(num)
-print("factorial",num,"is", k)            
+print("factorial of",num,"is", k)            
