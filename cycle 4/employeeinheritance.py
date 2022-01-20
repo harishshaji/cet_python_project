@@ -32,7 +32,7 @@ address = input("enter your address")
 department = input("enter ur department")
 subject = (input("enter subject you taught")).split(" ")
 
-
+ob1 = employee(emid,name,salary,address)
 ob2 = teacher(department,subject)
 
 ob2.show()
