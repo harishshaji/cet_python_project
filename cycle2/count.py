@@ -1,14 +1,10 @@
-a=input("Enter a line of senetence : ")
+str=input("enter a string").split()
 word={}
-a=a.split(" ")
-for i in a : 
-	if i not in word.keys() : 
-		 word[i] = 1
-	else : 
-		s=word[i]
-		s=s+1
-		word[i] = s
-for i in word : 
-	print(i," : ",word[i])
-	
+for i in str:
+    if i not in word.keys():
+        word[i]=1
+    else:
+        word[i]+=1
+for i in word:
+    print(word[i]) 
 		
